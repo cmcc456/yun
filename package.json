@@ -1,0 +1,41 @@
+{
+  "name": "search-search-go",
+  "version": "1.0.2",
+  "description": "一款极简体验、优雅、现代化、资源丰富、免费、无需登录的新一代阿里云盘搜索引擎，来体验找寻资源的快乐吧~",
+  "license": "MIT",
+  "author": "Justin3go",
+  "keywords": [
+    "nuxt",
+    "typescript",
+    "vuetify",
+    "elasticsearch"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/elasticsearch": "^5.0.43",
+    "nuxt": "^3.9.1",
+    "sass": "^1.69.7",
+    "sass-loader": "^14.0.0",
+    "typescript": "^5.3.3",
+    "vite-plugin-vuetify": "^2.0.1",
+    "vue": "^3.4.10",
+    "vue-gtag-next": "^1.14.0",
+    "vue-router": "^4.2.5",
+    "vuetify": "^3.4.10"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.17.13",
+    "@mdi/font": "^7.4.47",
+    "@types/lodash-es": "^4.17.12",
+    "cross-env": "^7.0.3",
+    "lodash-es": "^4.17.21"
+  }
+}
